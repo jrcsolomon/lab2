@@ -4,50 +4,77 @@
 <title>My Profile</title>
 <!-- CSS CONTAINER -->
 <style>
-h1{text-align:left;
-}
-body {text-align:center; background-color:hsla(202, 100%, 88%, 1);
-background-attachment: fixed; background-repeat: repeat-x; 
+body{
+font-family: Calibri;
+border: 10px solid hsla(202, 100%, 88%, 1);
+padding-left: 30px;
+padding-right: 30px;
 }
 
+.profile{
+text-align:left;
+font-size: 20px;
+}
+
+
+h1{text-align:left;
+}
+
+
 #main{
+text-align:center;
 width: 600px;
 border: 2px solid gray;
+
 }
 
 .content{
+margin: 20px;	
 vertical-align: middle;
-padding: 10px 10px 10px 10px;
+padding: 20px;
+background-color: hsla(202, 100%, 88%, 1);
+}
+
+a{
+text-decoration: none;
+font-size: 20px;
 }
 
 </style>
 </head>
 <!-- MAIN BODY -->
 <body>
-<h1 style=" background-color:rgb(255,255,255);">John Rafael C. Solomon</h1>
+<h1 style=" background-color:rgb(255,255,255);">My Profile</h1>
+
+<div class="profile"
+<ul>John Rafael C. Solomon</ul>
+<li>EMC191</li>
+<li>WEBPROG</li>
+</div>
+
 <h2 style="background-color:rgb(255,255,255);">My Games</h1>
 <div id="main">
 <div class="content">
-<a href="https://bluearchive.nexon.com/home">Blue Archive<br><br>
+<a href="https://bluearchive.nexon.com/home">
 <img src="https://i.imgur.com/5Ov7trk.jpeg" alt="Shiroko" width="300">
+<br><p>Blue Archive</p>
 </a>
 </div>
-<br>
+
 
 <div class="content">
 <a href="https://umamusume.jp/">
-<p>Uma Musume: Pretty Derby </p>
-<br>
 <img src="https://cdn.animenewsnetwork.com/thumbnails/max500x600/encyc/A20598-2494179646.1520139828.jpg" alt="Uma" width="300">
+<br><p>Uma Musume: Pretty Derby</p>
 </a>
 </div>
-<br>
+
 <div class="content"> 
 <a href="https://shinycolors.enza.fun/">
-<p>Idolm@ster: Shiny Colors </p>
 <img src="https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3CflXDDJ_ISqZnnmAYTi4dzCRNORshzBUxCAK0FPKpX_PMZ22Y-iVfbXU25Divmql0W0pQocPRS93kbIWN50k7YGXgKzzDluUJOzVBBizLK33D0ZqAonAUT8jH69RKMxG_9cFJr6tYoB-YdIMtialYw==" alt="Shinymas" width="500">
+<br><p>Idolm@ster: Shiny Colors</p>
 </a>
-<br>
+
 </div>
 </div
 
@@ -59,7 +86,10 @@ padding: 10px 10px 10px 10px;
 git status
 git add *
 git commit -m "x"
-git push -->
+git push 
+
+then git pull on server bash on public_html\lab2\week3
+-->
 
 
 </html>
