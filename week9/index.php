@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>My Profile</title>
+<link rel="icon" type="image/x-icon" href="https://kanji.jitenon.jp/shotai3/019.gif">
+<!-- CSS CONTAINER -->
+<style>
+body{
+margin-left: 20px;
+margin-right: 20px;
+font-family: Calibri, Verdana;
+border: 2px solid gray;
+background-color: 	#b3cde0;
+}
+
+.profile{
+text-align:left;
+vertical-align: top;
+font-size: 17px; 
+display:inline-block;
+width:300px;
+float:left;
+text-indent:20px;
+}
+
+table, th{
+  border: 1px solid;
+}
+	
+#maincontent{
+text-align:center;
+background-color: #fff;;
+
+}
+
+.content{	
+vertical-align: middle;
+display:block;
+float:inherit;
+}
+
+.contentinfo {
+display: inline-block;
+margin: 10px;
+}
+
+a{
+text-decoration: none;
+font-size: 20px;
+}
+
+a:link{
+color: blue;
+}
+a:hover{
+color: green;
+}
+a:active{
+color: darkblue;
+}
+
+h2 {
+text-indent: 30px;
+}
+
+
+</style>
+</head>
+<!-- MAIN BODY -->
+<body>
+
+
+<div class="profile">
+<h1 style="background-color: #2e51a2; color: white; font-family:Verdana; font-size: 25px">My Profile</h1>
+<img src="https://user-content.flat-cdn.com/6207e2f033f823001243e379/9a25cb3d-322c-4fda-ab93-d66317496289.jpeg" width="150px" style=" display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;">
+  <br>
+ 
+  
+<table style="background-color: rgb(245,245,245);margin:auto; ">
+<tr> <th>John Rafael C. Solomon</th></tr>
+<tr><th>EMC191</th></tr>
+<tr><th>WEBPROG</th></tr>
+</table>
+
+ <a href="account.php" style="display: block;text-align: center;">Account Form</a>
+</div>
+<div class="content">
+<h1 style="background-color:#2e51a2;font-family:Verdana; color: white;font-size: 25px;text-indent:20px;">My Games</h1>
+<div id="maincontent">
+
+
+
+<a href="https://bluearchive.nexon.com/home">
+<div class="contentinfo">
+<img src="https://i.imgur.com/5Ov7trk.jpeg" alt="Shiroko" width="300"><br>
+Blue Archive
+</div>
+</a>
+
+<a href="https://umamusume.jp/">
+<div class="contentinfo">
+<img src="https://cdn.animenewsnetwork.com/thumbnails/max500x600/encyc/A20598-2494179646.1520139828.jpg" alt="Uma" width="300">
+<br>Uma Musume: Pretty Derby
+</div>
+</a>
+
+<a href="https://shinycolors.enza.fun/">
+<div class="contentinfo">
+<img src="https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3CflXDDJ_ISqZnnmAYTi4dzCRNORshzBUxCAK0FPKpX_PMZ22Y-iVfbXU25Divmql0W0pQocPRS93kbIWN50k7YGXgKzzDluUJOzVBBizLK33D0ZqAonAUT8jH69RKMxG_9cFJr6tYoB-YdIMtialYw==" alt="Shinymas" width="500">
+<br>Idolm@ster: Shiny Colors
+</div>
+</a>
+<br>
+</div>
+</div>
+
+</body>
+
+<!-- git update command cycle:
+git status
+git add *
+git commit -m "x"
+git push 
+
+then git pull on server bash on public_html\lab2\week3
+-->
+
+
+</html>
