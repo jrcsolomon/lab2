@@ -4,9 +4,10 @@
 <body>
 
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
+	$servername = "192.168.150.213";
+	$username = "webprogmi212";
+	$password = "b3ntRhino98";
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
@@ -16,7 +17,7 @@ if ($conn->connect_error) {
 }
 
 // Create database
-$sql = "CREATE DATABASE testdb";
+$sql = "CREATE DATABASE webprogmi212";
 if ($conn->query($sql) === TRUE) {
   echo "Database created successfully";
 } else {

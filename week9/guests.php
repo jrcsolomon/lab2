@@ -34,10 +34,10 @@
 		<h4>Guests</h4>
 		
 		<?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "testdb";
+	$servername = "192.168.150.213";
+	$username = "webprogmi212";
+	$password = "b3ntRhino98";
+	$dbname = "webprogmi212";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -46,7 +46,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id, name, email FROM MyGuests";
+$sql = "SELECT id, name, email FROM webprogmi212";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

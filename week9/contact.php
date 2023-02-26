@@ -133,10 +133,10 @@ echo $gender;
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 {
 
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "testdb";
+	$servername = "192.168.150.213";
+	$username = "webprogmi212";
+	$password = "b3ntRhino98";
+	$dbname = "webprogmi212";
 	
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
@@ -145,7 +145,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	die("Connection failed: " . $conn->connect_error);
 	}
 	
-	$sql = "INSERT INTO MyGuests (name,email, website,comment,gender)
+	$sql = "INSERT INTO webprogmi212 (name,email, website,comment,gender)
 	VALUES ('$name', '$email','$website','$comment','$gender')";
 	
 	if ($conn->query($sql) === TRUE) {
