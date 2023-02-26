@@ -46,7 +46,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id, name, email FROM webprogmi212";
+$sql = "SELECT id, name, email FROM MyGuests";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
